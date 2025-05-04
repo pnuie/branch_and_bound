@@ -56,7 +56,7 @@ The goal is to solve a simple IP optimization problem, such as a knapsack-type p
 ├── BranchandBound.py    # Basic standalone B&B implementation
 ├── bb_algorithm.py      # BB class: explore by creation order
 ├── bb_ver2.py           # BB_ver2 class: explore by 0.5-fraction closeness
-├── bb_ver3.py           # BB_ver3 class: mixed strategy
+├── bb_ver3.py           # BB_ver3 class: explore by objective value
 ├── test_case.py         # Test case generator (e.g., knapsack examples)
 ├── run.py               # Runner script to test and compare different versions
 ├── README.md            # Project documentation
